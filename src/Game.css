@@ -1,0 +1,103 @@
+html,body{
+    background-color: rgb(55, 115, 236);
+}
+
+.app-container{
+    width: 800px;
+    height: 100vh;
+    left: 18%;
+    position: absolute;
+    
+   
+   
+}
+
+.panel{
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+    border: 8px solid rgb(129, 100, 63);
+    -webkit-box-shadow :7px 5px 15px 3px rgba(0,0,0,0.9);
+    box-shadow: 7px 5px 15px 3px rgba(0,0,0,0.9);
+}
+.header{
+    left:50%;
+    top: 10px;
+    height: 60px;
+    width: 300px;
+    margin-left: -120px;
+
+}
+.header-text{
+    font-size: 30px;
+    font-weight: bold;
+    width: 220px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform:translate(-50%,-50%) ;
+    transform: translate(-50%,-50%);
+}
+
+.footer{
+    left: 50%;
+    top: 520px;
+    height: 60px;
+    width: 300px;
+    margin-left: -120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer button{
+
+  margin-top:10px ;
+  width: 150px;
+  height: 40px;
+  margin-left: 50%;
+  background-color: lightblue;
+  font-size: 20px;
+  -webkit-box-shadow :7px 5px 15px 3px rgba(0,0,0,0.9);
+  box-shadow: 7px 5px 15px 3px rgba(0,0,0,0.9);
+  border: 5px solid chocolate;
+  font-weight: bold;
+}
+
+.footer button:hover{
+    background-color: chocolate;
+}
+.gameboard{
+    display:grid;
+    grid-Template-Columns:repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    padding:20px;
+    width:500px;
+    position:absolute;
+    left:50%;
+    margin-Left:-250px;
+    top:15%;
+    background-color: rgb(238, 184, 119);
+    border: 8px solid rgb(129, 100, 63);
+    border-radius: 8%;
+    -webkit-box-shadow :7px 5px 15px 3px rgba(0,0,0,0.9);
+    box-shadow: 7px 5px 15px 3px rgba(0,0,0,0.9);
+}
+
+.gamecircle{
+    width: 80px;
+     height:80px; 
+     margin:5px;
+     border-Radius:50%;
+     border: 5px solid black;
+}
+
+.player_0{
+    background-color: white;
+}
+
+.player_1{
+    background-color: red;
+}
+
+.player_2{
+    background-color: blue;
+}
